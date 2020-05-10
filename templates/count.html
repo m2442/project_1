@@ -1,0 +1,18 @@
+<h1>Welcome T0 My First Micro Project</h1>
+<a href="{% url 'home' %}">Start Again</a>
+<h1> Text you entered: </h1>
+{{ fulltext }}
+<h1>RESULTS:</h1>
+<h1>There are {{ noofwords }} words </h1>
+
+<h1>Couting Begins...</h1>
+<br>
+{% for x, y in dict %}
+{{ x }} - {{ y }}
+<br>
+
+
+{% endfor %}
+<br>
+<br>
+thank you
